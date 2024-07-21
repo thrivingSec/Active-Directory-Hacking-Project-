@@ -32,24 +32,35 @@ Post Compromise Attack Tools: crackmapexec, sercretsdump.py, psexec, metasploit,
 Domain Name: BiriyaniBlend.trio
 
 **COMPUTERS**
+
 Domain Controller: Coral401-DC(coral401-DC.BiriyaniBlend.trio)
+
 Domain Controller IP: 10.0.2.6
 
 Workstation1:
+
 Machine Name: BLENDTESTER(BLENDTESTER.BiriyaniBlend.trio)
+
 IP: 10.0.2.7
 
 Workstation2:
+
 Machine Name: BLENDTS(BLENDTS.BiriyaniBlend.trio)
+
 IP: 10.0.2.15
 
 **USERS**
 
 DOMAINUSERS:
-Avneet Kaur: Local Admin at workstation1:(SAM Folder Name: akaur): akaur@BiriyaniBLend.trio
-Tushar Shaw: Local Admin at workstation1 and workstation2: (SAM Folder Name: tshaw): tshaw@BiriyaniBlend.trio
+
+Avneet Kaur: Local Admin at workstation1:(SAM Folder Name: akaur): (akaur@BiriyaniBlend.trio)
+
+Tushar Shaw: Local Admin at workstation1 and workstation2: (SAM Folder Name: tshaw): (tshaw@BiriyaniBlend.trio)
+
 ADMINISTRATOR: DOMAIN ADMIN
 
 LOCALUSERS:
+
 Avneet Kaur: Workstation1
+
 Tushar Shaw: Workstation2
