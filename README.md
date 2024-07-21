@@ -1,14 +1,29 @@
-# Active-Directory-Hacking-Project-
-This is an Internal penetration testing report on an home lab active directory environment setup. Attack scenarios in this report try to replicate the events from an actual organizational active directory enivironment, attacker/pentester is connet to the local area network and tries to enumerate and exploit the network and systems. 
-This descriptive lab report is nothing but a project for my resume and with time I will keep making changes in it.
-This report consists of 5 files namely (1) Home Lab Setup Description (2) Network Mapping (3) Intial Attack and Compromise (4) Post Compromise Enumeration (5) Post Compromise Exploitation
+# Active Directory Home Lab Network Hacking
 
-//Srijan//
-**No public contribution required.**
-
-# Project Description
+## Objective
 Understand the basics of Active Directory and setup a home lab Active Directory network consisting of a domain controller(windows 2019 server) and two workstations(windows 10 enterprise) connected to the domain and a attacker's machine(kali Linux). 
+
+Understand and describe all the possible attack scenarios. Dig deep into the technical stuff like protocols, tools used to exploit, features etc. 
 
 Enumerate the network and execute the attacks and make a well documented report.
 
-Execute post compromise enumeration and privilege escalation. Make a well documented report of the same.
+Learn about the post compromise enumeration and exploitation and execute it. Make a well documented report of the same.
+
+Study about the defense mechanism to make AD in an enterprise environment more secure against the possible attacks.
+
+
+### Skills Learned
+
+- Mastered Active Directory fundamentals through setting a home lab network.
+- Gained expertise in AD domain network attack vectors LLMNR poisoning, SMB relay, compromising ipv4 networks using ipv6 attacks with Responder and ntlmrelayx, mitm6 for initial access.
+- Developed advanced post compromise enumeration skills using tools like PowerView and BloodHound.
+- Developed advanced post-compromise exploitation skills including pass-the-hash/pass-the-passwordand Kerberoasting using impacket toolkit
+- Performed high-level attack simulations like token impersonation and golden ticket attacks to get domain admin access and unlimited access on the domain network
+- Authored detailed incident reports documenting attack methodologies, tools used, and mitigation strategies to enhance organizational security posture.
+
+### Tools Used
+Initial Attack Tools: responder, ntlmrelayx.py, mitm6, (metasploit, psexec, wmiexec, smbexec)
+	
+Post Compromise Enumeration: PowerView, Bloodhound
+			
+Post Compromise Attack Tools: crackmapexec, sercretsdump.py, psexec, metasploit, GetUserSPNs.py, mimikatz
