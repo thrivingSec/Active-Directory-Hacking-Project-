@@ -5,3 +5,10 @@ This report consists of 5 files namely (1) Home Lab Setup Description (2) Networ
 
 //Srijan//
 **No public contribution required.**
+
+# Project Description
+Understand the basics of Active Directory and setup a home lab Active Directory network consisting of a domain controller(windows 2019 server) and two workstations(windows 10 enterprise) connected to the domain and a attacker's machine(kali Linux). 
+
+Enumerate the network and execute the attacks and make a well documented report.
+
+Execute post compromise enumeration and privilege escalation. Make a well documented report of the same.
